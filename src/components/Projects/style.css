@@ -1,0 +1,60 @@
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Center vertically */
+}
+
+.upload-input {
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    color: white;
+    transition: border-color 0.3s;
+}
+
+.upload-input:focus {
+    border-color: #ce5ff8;
+    outline: none;
+}
+
+.upload-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    color: white;
+    background-color: #ce5ff8;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+}
+
+.upload-button:active {
+    background-color: #003d7a;
+    transform: scale(0.98);
+    /* Slight scaling effect on click */
+}
+
+.upload-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.check_box {
+    color: white;
+}
+
+.form-check1 {
+    color: #fff;
+    text-align: left;
+}
+
+.form-check1 label {
+    margin-left: 10px;
+}
