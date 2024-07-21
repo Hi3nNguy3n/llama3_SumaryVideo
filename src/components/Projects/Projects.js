@@ -72,7 +72,7 @@ function Projects() {
           SUMM <strong className="purple">AI  </strong> Project - Llama-3 Hackthon ⭐
         </h1>
         <p style={{ color: "white" }}>
-          We use LLama summary video
+        In an era where technology is rapidly advancing, efficiently summarizing video content is becoming increasingly essential. This topic focuses on applying the advanced language model, Llama 3, to accomplish this task. With its superior natural language processing capabilities, Llama 3 promises to deliver concise, accurate, and easily understandable summaries for viewers.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
        
@@ -167,6 +167,7 @@ function Projects() {
       <Row style={{ justifyContent: "center", paddingBottom: "10px", background:"#fff", marginTop:'20px',height:'1000px'}}>
           <label style={{ textAlign: "left",paddingTop:"10px"}}>{Message}</label>
       </Row>
+      
       </Container>
 
     </Container>
